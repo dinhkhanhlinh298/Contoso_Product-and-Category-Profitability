@@ -8,11 +8,11 @@ Lợi nhuận gộp giảm từ 719,9 triệu USD năm 2007 xuống 539,5 triệ
 
 *Phạm vi* gồm 8 nhóm sản phẩm và 4 kênh bán hàng: Store, Online, Catalog và Reseller.
 ## 2. Công cụ
-### Công cụ chính: Power BI desktop
-- Làm sạch dữ liệu: thay thế bảng DIMStore thiếu StoreKey thành bảng đầy đủ; xóa các khoảng trắng thừa; merge 3 bảng DIMProduct, DIMProductCategory và DIMProductSubCategory làm 1 để đảm bảo mô hình Star Schema; đổi kiểu dữ liệu các cột không đúng; giữ null cho các cột số dùng để tính toán, thay "N/A" cho các cột text hiển thị tránh lỗi Empty.
+### Công cụ chính: Power BI Desktop
+- Làm sạch dữ liệu: thay thế bảng DIMStore thiếu StoreKey thành bảng đầy đủ; xóa các khoảng trắng thừa; merge 3 bảng DIMProduct, DIMProductCategory và DIMProductSubCategory làm 1 để đảm bảo mô hình Star Schema; đổi kiểu dữ liệu các cột không đúng; giữ null cho các cột số dùng để tính toán, thay giá trị trống trong các cột văn bản bằng “N/A” để dễ nhận diện.
 - Tổ chức mô hình dạng Star Schema với bảng FACT ở giữa, xung quanh là các bảng DIM.
 - Phân tích khám phá dữ liệu (EDA): thực hiện Descriptive cho các biến CAT, NUM chính và Diagnostic để đào sâu tương quan giữa các biến.
-- Làm dashboard báo cáo kết quả quân tích.
+- Xây dựng dashboard trình bày kết quả phân tích.
 ### Công cụ hỗ trợ: Claude AI
 - Tạo skill để lên Logic tree theo nguyên tắc MECE.
 - Hỗ trợ viết DAX và tạo bảng phức tạp.
