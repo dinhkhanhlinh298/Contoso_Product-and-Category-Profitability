@@ -33,7 +33,6 @@ Lợi nhuận gộp giảm từ 719,9 triệu USD năm 2007 xuống 539,5 triệ
 - [Phân tích khám phá dữ liệu](EDA.pdf)
 - [Logic Tree](Logic%20Tree.pdf)
 - [Mô hình dữ liệu](Data%20Model.png)
-- [Taxonomy](Taxonomy%20%281%29.png)
 
 *Tác giả:* Đinh Khánh Linh  
 Dự án học tập sử dụng bộ dữ liệu mẫu Contoso.
